@@ -1,0 +1,15 @@
+body {
+    color: red;
+}
+
+.header {
+    height: 40px;
+    background-color: blue;
+}
+
+.footer {
+    height: 61px;
+    background-color: red;
+    position: fixed;
+    bottom: -61px;
+}
