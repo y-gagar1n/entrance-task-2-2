@@ -1,7 +1,6 @@
-body {
-    color: red;
+* {
+    box-sizing: border-box;
 }
-
 .navbar {
     height: 93px;
     display: flex;
@@ -27,7 +26,7 @@ body {
     cursor: pointer;
 }
 
-.navbar__menu-item_active {
+.navbar__menu-item_active, .navbar__menu-item:hover {
     opacity: 1;
 }
 
@@ -37,4 +36,40 @@ body {
     bottom: 0;
     background-color: red;
     position: fixed;
+}
+
+.content {
+    margin: 29px 39px;
+    border: 1px solid red;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard__row {
+    display: flex;
+    white-space: nowrap;
+}
+
+.dashboard__panel {}
+
+.main-panel {
+    height: 331px;
+    width: 630px;
+    border: 1px solid blue;
+    background-image: url("./assets/bg@1x.png");
+    padding: 20px 25px;
+}
+
+.dashboard__header {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    line-height: 20px;
 }
