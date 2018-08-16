@@ -15,15 +15,15 @@
         <div class="navbar">
             <div class="navbar__logo"></div>
             <div class="navbar__menu">
-                <div class="navbar__menu-item navbar__menu-item_active">
+                <a class="navbar__menu-item navbar__menu-item_active" href="#/dashboard">
                     Сводка
-                </div>
-                <div class="navbar__menu-item">
+                </a>
+                <a class="navbar__menu-item" href="#/devices">
                     Устройства
-                </div>
-                <div class="navbar__menu-item">
+                </a>
+                <a class="navbar__menu-item" href=#/scenarios>
                     Сценарии
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -47,11 +47,27 @@
                     <div class="dashboard__scenarios">
                         <div class="dashboard__header">Избранные сценарии</div>
                         <div class="fav-scenarios">
-                            <div class="panel">Выключить весь свет в доме и во дворе</div>
-                            <div class="panel">Я ухожу</div>
-                            <div class="panel">Включить свет в коридоре</div>
-                            <div class="panel">Набрать горячую ванну</div>
-                            <div class="panel">Сделать пол теплым во всей квартире</div>
+                            <div class="panel">
+                                <div class="panel__icon icon-sun2"></div>
+                                <div class="panel__title">Выключить весь свет в доме и во дворе</div>
+                            </div>
+                            <div class="panel">
+                                <div class="panel__icon icon-clock"></div>
+                                <div class="panel__title">Я ухожу</div>
+                            </div>
+                            <div class="panel">
+                                <div class="panel__icon icon-sun2"></div>
+                                <div class="panel__title">Включить свет в коридоре</div>
+                            </div>
+                            <div class="panel">
+                                <div class="panel__icon icon-temperature2"></div>
+                                <div class="panel__title">Набрать горячую ванну</div>
+                                <div class="panel__info">Начнётся в 18:00</div>
+                            </div>
+                            <div class="panel">
+                                <div class="panel__icon icon-temperature2"></div>
+                                <div class="panel__title">Сделать пол теплым во всей квартире</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -76,6 +92,7 @@
         <a href="#/feedback">Обратная связь</a>
         <a href="#/docs">Разработчикам</a>
         <a href="#/terms">Условия использования</a>
+        <div style="margin-left: auto">©&nbsp;2001-2017&nbsp;ООО&nbsp;«Яндекс»</div>
     </div>
 </body>
 
