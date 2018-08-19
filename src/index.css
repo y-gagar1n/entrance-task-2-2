@@ -88,10 +88,12 @@
 .dashboard__panel {}
 
 .main-panel {
+  display: flex;
   height: 331px;
   width: 630px;
   background-image: url("./assets/bg@1x.png");
   padding: 20px 25px;
+  justify-content: space-between;
 }
 
 .main-panel__title {
@@ -157,7 +159,7 @@
   border-radius: 20px;
   padding: 14.1px 15px;
   white-space: normal;
-  margin: 15px;
+  margin: 0 15px 15px 0;
   cursor: pointer;
 }
 
@@ -195,6 +197,7 @@
 .devices__list {
   display: flex;
   flex-wrap: nowrap;
+  margin-top: 20px;
 }
 
 .panel__icon {
@@ -245,4 +248,12 @@
   margin-top: 4px;
   font-size: 36px;
   display: flex;
+}
+
+.schedule-panel {
+  margin-right: 0px;
+  margin-bottom: 15px;
+}
+
+.main-panel__schedule {
 }
