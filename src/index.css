@@ -256,4 +256,9 @@
 }
 
 .main-panel__schedule {
+  height: 100%;
+  overflow: auto;
+  padding-right: 15px;
+  width: 100%;
 }
+
