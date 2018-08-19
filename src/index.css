@@ -205,6 +205,8 @@
 .main-panel__temperature-icon {
   width: 26px;
   height: 26px;
+  margin-left: 5px;
+  margin-top: 6px;
 }
 
 .icon-sun {
@@ -229,4 +231,18 @@
 
 .icon-cloudy {
   background-image: url(assets/cloud-drizzle.png);
+}
+
+.main_panel__temperature-list {
+  display: flex;
+}
+
+.main_panel__temperature-item {
+  margin-right: 18px;
+}
+
+.main-panel__temperature-value {
+  margin-top: 4px;
+  font-size: 36px;
+  display: flex;
 }
