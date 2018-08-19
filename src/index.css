@@ -7,6 +7,14 @@
   font-family: 'Arial-BoldMT', Arial, sans-serif;
 }
 
+.text {
+  font-size: 14px;
+}
+
+.gray-text {
+  color: #858585;
+}
+
 @font-face {
   font-family: 'Arial-BoldMT', Arial, sans-serif;
   src: url(assets/fonts/Arial-BoldMT.otf);
@@ -96,6 +104,7 @@
   font-size: 14px;
   color: #333333;
   margin-top: 6px;
+  margin-bottom: 25px;
 }
 
 .dashboard__header {
@@ -116,7 +125,7 @@
   display: flex;
 }
 
-.devices__header > * {
+.devices__header>* {
   margin-left: 10px;
   margin: auto 0 auto 10px;
 }
@@ -193,6 +202,11 @@
   height: 24px;
 }
 
+.main-panel__temperature-icon {
+  width: 26px;
+  height: 26px;
+}
+
 .icon-sun {
   background-image: url(assets/icon_sun.svg);
 }
@@ -211,4 +225,8 @@
 
 .icon-temperature2 {
   background-image: url(assets/icon_temperature_2.svg);
+}
+
+.icon-cloudy {
+  background-image: url(assets/cloud-drizzle.png);
 }
